@@ -61,6 +61,9 @@ export function Cards({ theme }: ICardsProps) {
 					<SwiperSlide className="w-[100px] h-[150px] md:w-[250px] md:h-[350px]">
 						<Card imageUrl={url} />
 					</SwiperSlide>
+					<SwiperSlide className="w-[100px] h-[150px] md:w-[250px] md:h-[350px]">
+						<Card imageUrl={url} />
+					</SwiperSlide>
 				</Swiper>
 				<ChevronRight
 					ref={nextRef}
